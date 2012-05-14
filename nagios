@@ -1,0 +1,27 @@
+    {
+      "id": "dbrown",
+      "groups": "sysadmin",
+      "htpasswd": "{SHA}rij4ACbGiGtN0v+v38APykfsmz4=",
+      "openid": "http://danielgbrown.myopenid.com/",
+      "nagios": {
+        "pager": "2144150380@txt.att.com",
+        "email": "daniel.brown@alcatel-lucent.com"
+      }
+    {
+      "id": "jkyle",
+      "groups": "sysadmin",
+      "htpasswd": "",
+      "openid": "http://jameskyle.myopenid.com/",
+      "nagios": {
+        "pager": "tbd@txt.att.com",
+        "email": "jk337f@att.com"
+      }
+    {
+      "id": "mfairchild",
+      "groups": "sysadmin",
+      "htpasswd": "",
+      "openid": "http://michaelfairchild.myopenid.com/",
+      "nagios": {
+        "pager": "tbd@txt.att.com",
+        "email": "mf011f@att.com"
+      }

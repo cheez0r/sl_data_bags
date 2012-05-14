@@ -1,0 +1,34 @@
+# actions :create, :remove, :modify, :manage, :lock, :unlock
+# attribute :username,      :kind_of => String, :name_attribute => true
+# attribute :comment,       :kind_of => String
+# attribute :uid,           :kind_of => [String,Integer]
+# attribute :gid,           :kind_of => [String,Integer]
+# attribute :home,          :kind_of => String
+# attribute :shell,         :kind_of => String
+# attribute :password,      :kind_of => String
+# attribute :system_user,   :default => false
+# attribute :manage_home,   :default => nil
+# attribute :create_group,  :default => nil
+# attribute :ssh_keys,      :kind_of => [Array,String], :default => []
+# attribute :ssh_keygen,    :default => nil
+    
+    {
+      "id"        : "jkyle",
+      "comment"   : "James Kyle",
+      "home"      : "/home/jkyle",
+      "ssh_keys"  : ["123...", "456..."]
+    }
+
+    {
+      "id"        : "mfairchild",
+      "comment"   : "Michael Fairchild",
+      "home"      : "/home/mfairchild",
+      "ssh_keys"  : ["123...", "456..."]
+    }
+
+    {
+      "id"        : "dbrown",
+      "comment"   : "Dan Brown",
+      "home"      : "/home/dbrown",
+      "ssh_keys"  : ["ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA1itCABQBZTnimwxDcNsbH2NC+Myv9sD6/6Eh5dLt9/DwJmnPloxKVosbcxlsHkQnWB8UJZp0lZeQNxCviDhSbqRJrXEX4wO7c2XhugeANhewKT+luqLSIa/B1jJhX5Dgtfnru2HZc5PJw7gzQmwZ9Rp3OZLGYjlIac77+DNZn5QrY4qsqURYe3jmDp47GIkIZWOq5ZThXga2YLocBLzc8LnmIE3DdlFhNdJnIEcEYJXCnlN6mStZrJhbNNbMZ0qSDFg4/5ba41WKGgWB/8/2Ewb1NvLK0huj39fSr0YKsGvYBWTAltSm2BWuNWwIjN6HG5+WD200ZvNNA7yBtZsptw=="]
+    }
